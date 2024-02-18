@@ -1,0 +1,14 @@
+#imagem base com Python instalado
+FROM python:3.9-slim
+
+#script Python para o contêiner
+COPY app.py /app/
+
+#variável de ambiente no contêiner
+ENV MY_VARIABLE=ValorPadrao
+
+#diretório de trabalho
+WORKDIR /app
+
+#execute o script Python quando o contêiner for iniciado
+CMD ["python", "app.py"]

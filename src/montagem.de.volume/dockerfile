@@ -1,0 +1,8 @@
+#imagem base para aplicação
+FROM alpine:latest
+
+#cria um diretório no contêiner
+RUN mkdir /app
+
+#defina o diretório de trabalho
+WORKDIR /app

@@ -1,0 +1,11 @@
+#imagem base com Python, python:3-alpine
+FROM python:3-alpine
+
+#copie um script Python simples para o contêiner
+COPY hello.py /app/
+
+#diretório de trabalho
+WORKDIR /app
+
+# comando padrão a ser executado quando o contêiner for iniciado
+CMD ["python", "hello.py"]

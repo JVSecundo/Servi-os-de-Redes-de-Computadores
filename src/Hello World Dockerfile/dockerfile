@@ -1,0 +1,5 @@
+#imagem base leve, Alpine Linux
+FROM alpine:latest
+
+#imprimi "Hello World!" quando o contêiner for executado
+CMD ["echo", "Hello World!"]
