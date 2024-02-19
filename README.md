@@ -47,7 +47,7 @@ Aqui está o passo a passo para executar cada parte da atividade:
 - docker run -v /caminho/para/arquivo/local:/app volume-example
   
 3. **O contêiner foi iniciado com sucesso e você está agora dentro do terminal do contêiner, representado pelo prompt /app #.**
-- Da o comando ls, para ver o que tem dentro
+- Da o comando "ls", para ver o que tem dentro
 
 ### Atividade 4: Variáveis de Ambiente
 
